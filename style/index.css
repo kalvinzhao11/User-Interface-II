@@ -69,9 +69,14 @@ header .header{
     margin: 0;
 }
 
-.projects figcaption{
+/* .projects figcaption{
     margin: 0;
     max-width: 15%;
+} */
+
+.projects img, figcaption {
+    display: table-cell;
+    vertical-align: bottom;
 }
 
 footer{
