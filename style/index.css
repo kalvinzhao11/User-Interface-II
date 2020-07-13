@@ -51,7 +51,7 @@ header .header{
 
 .nav a{
     text-decoration: none;
-    border: 1px solid gray;
+    border: 2px solid grey;
     padding: .5% 1.5%;
     background-color: white;
     color: black;
@@ -90,6 +90,37 @@ footer{
 }
 
 @media(max-width: 800px){
+    .body{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body div{
+        align-items: center;
+    }
+    .body img{
+        width: 100%;
+    }
+    header{
+        background-color: white;
+    }
+    .header h1{
+        margin: 0; 
+        text-align: center;
+    }
+    .nav{
+        flex-direction: column;
+        justify-items: center;
+        margin: 0;
+        text-align: center;
+        padding-left: 0;
+        align-items: center;
+        /* width: 20%; */
+    }
+    .nav a{
+        width: 20%;
+        /* margin: .1rem; */
+    }
 
 }
 @media(max-width: 500px){
