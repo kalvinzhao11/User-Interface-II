@@ -12,7 +12,7 @@ body{
 
 .body{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: .7% 0;
 }
@@ -64,7 +64,7 @@ header .header{
 .projects{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -72,7 +72,6 @@ header .header{
     width: 21%;
     margin: 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-direction: column;
 }
@@ -97,7 +96,6 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-
     .body div{
         align-items: center;
     }
@@ -124,16 +122,9 @@ footer{
     .projects figure{
         width: 35%;
     }
-    .projects figure img{
-        width: auto;
-        height: 40%;
-    }
 }
 
 @media(max-width: 500px){
-    .nav{
-        background-color: honeydew;
-    }
     button{
         padding: 3% 6%;
         background-color: white;
