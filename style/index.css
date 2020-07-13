@@ -88,3 +88,10 @@ footer{
     margin-bottom: 0%;
     background-color: rgb(216, 216, 216);
 }
+
+@media(max-width: 800px){
+
+}
+@media(max-width: 500px){
+    
+}
